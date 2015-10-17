@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Copyright (c) 2014 by Samara Soucy
+-->
+ <link rel="stylesheet" type="text/css" href="normalize.css">
+ <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="main.css">
+ </head>
+<body>
+	<div class="sidebarWrapper">
+		<div id="theSidebar">
+			<h2>DripDrop</h2>
+			<p>Version 0.1</p>
+			<p>&copy; 2014 Samara Soucy</p>
+			</br>
+			<h3>Next Updates</h3>
+			<ul>
+				<li>Make Toggles Work</li>
+				<li>Tier Upgrades</li>
+				<li>Fix little CSS quirks</li>
+				<li>Saved Games</li>
+				<li>Improve the Drip Animation a bit</li>
+				<li>End Game</li>
+			</ul>
+		</div>
+	</div>
+	<div id="theToggles">
+		<div class = "toggle" id = "primaryToggle0"></div>
+		<div class = "betweenToggle" id = "secondaryToggle0"></div>
+		<div class = "toggle" id = "primaryToggle1"></div>
+	</div>
+	<div class="gameWrapper">
+		<div id="theGame">
+			<div class = "container" id = "primaryTier0">
+				<div class = "main pool tier0 container0">
+				  <p style = "margin: none;">Click Me!</p>
+				</div>
+			</div>
+			<div class = "container" id = "primaryDrip0">
+				<div class = "drip0 container0 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip0 container1 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				 <div class = "drip0 container2 drip">
+				   <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+			</div>
+			<div class = "container" id = "primaryTier1">
+				<div class = "tier1 container0 pool" style = "width: 33.1%">
+				</div>
+				<div class = "tier1 container1 pool" style = "width: 33.1%">
+				</div>
+				 <div class = "tier1 container2 pool" style = "width: 33.1%">
+				</div>
+			</div>
+			<div class = "container" id = "primaryDrip1">
+				<div class = "drip1 container0 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip1 container1 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip1 container2 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container3 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container4 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container5 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+				 <div class = "drip1 container6 drip">
+				   <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+				</div>
+				<button type = "button" id = "theButton" class="tier2" disabled>Buy the Next Tier</button>
+				<div id = "toNext"></div>
+			</div>
+		</div>
+	</div>
+  </body>
+  <footer>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="select.js"></script>
+   <script src="main.js"></script>
+  </footer>
+  
+  </html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Copyright (c) 2014 by Samara Soucy
+-->
+ <link rel="stylesheet" type="text/css" href="normalize.css">
+ <link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" type="text/css" href="main.css">
+ 
+ <title>DripDrop</title>
+ </head>
+<body>
+	<div class="sidebarWrapper">
+		<div id="theSidebar">
+			<div id="sideBarHeader">
+				<h2>DripDrop</h2>
+				<p>Version 0.11</p>
+				<p>dripdrop@samarasoucy.com</p>
+				<p>&copy; 2014 Samara Soucy</p>
+			</div>
+			</br>
+			<div id = "sidebarTabs">
+				<div id = "optionsName" class = "tabName">Options</div>
+				<div id = "updatesName" class = "tabName">Updates</div>
+				<div id = "starStoreName" class = "tabName">Star Store</div>
+			</div>
+			
+			</br>
+			
+			<div id= "options" class = "aTab">
+				<button type = "button" id = "theToggle" class="toggleButton">Toggle Help Text</button>
+			</div>
+			
+			<div id= "updates" class = "aTab">
+				<h3>Recent Updates</h3>
+				<ul>
+					<li>Created the first tier upgrade</li>
+					<li>Finished help text and added toggle for it</li>
+					<li>Fixed a major performance issue</li>
+				</ul>
+				<h3>Next Updates</h3>
+				<ul>
+					<li>Moar Tier Upgrades</li>
+					<li>Saved Games</li>
+					<li>End Game?</li>
+				</ul>
+			</div>
+			<div id= "starStore" class = "aTab">
+				<p>Coming Soon!</p>
+			</div>
+		</div>
+	</div>
+	<div id="theToggles">
+		<div class = "toggle" id = "primaryToggle0"></div>
+		<div class = "toggle" id = "primaryToggle1"></div>
+	</div>
+	<div class="gameWrapper">
+		<div id="theGame">
+			<div class = "container" id = "primaryTier0">
+				<div class = "main pool tier0 container0">
+				  <div class = "infoText">Click Me! </div><div class = "textPerSecond"></div>
+				</div>
+			</div>
+			<div class = "container" id = "primaryDrip0">
+				<div class = "drip0 container0 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip0 container1 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				 <div class = "drip0 container2 drip">
+				   <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+			</div>
+			<div class = "tierStore" id = "tierStore0">
+				<h3>Tier Store</h3>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Tier Total:</div>
+					<div class = "tierTotalText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Tier Per Second:</div>
+					<div class = "tierPerSecondText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Stars:</div>
+					<div class = "tierStarText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "actionContainer">
+					<button type="button" class = "starButton">Buy with Drips Per Second</button>
+					<button type="button" class = "starButton2">Buy with Tier Total</button>
+				</div>
+			</div>
+			<div class = "container" id = "primaryTier1">
+				<div class = "tier1 container0 pool" style = "width: 33.1%">
+					<div class = "infoText"></div><div class = "textPerSecond"></div>
+				</div>
+				<div class = "tier1 container1 pool" style = "width: 33.1%">
+					<div class = "infoText"></div><div class = "textPerSecond"></div>
+				</div>
+				 <div class = "tier1 container2 pool" style = "width: 33.1%">
+					<div class = "infoText"></div><div class = "textPerSecond"></div>
+				</div>
+			</div>
+			<div class = "container" id = "primaryDrip1">
+				<div class = "drip1 container0 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip1 container1 drip">
+				  <div class = "dripper" style = "background-color: rgb(255,0,0);"></div>
+				</div>
+				<div class = "drip1 container2 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container3 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container4 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,255,0);"></div>
+				</div>
+				<div class = "drip1 container5 drip">
+				  <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+				 <div class = "drip1 container6 drip">
+				   <div class = "dripper" style = "background-color: rgb(0,0,255);"></div>
+				</div>
+			</div>
+			<div class = "tierStore" id = "tierStore1">
+				<h3>Tier Store</h3>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Tier Total:</div>
+					<div class = "tierTotalText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Tier Per Second:</div>
+					<div class = "tierPerSecondText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "storeContainer">
+					<div style="display: inline-block;">Stars:</div>
+					<div class = "tierStarText" style="display: inline-block;">0</div>
+				</div>
+				<div class = "actionContainer">
+					<button type="button" class = "starButton">Buy with Drips Per Second</button>
+					<button type="button" class = "starButton2">Buy with Tier Total</button>
+				</div>
+			</div>
+				<button type = "button" id = "theButton" class="tier2">Buy the Next Tier</button>
+				<div id = "toNextText">To Next Tier: <div id = "toNext"></div></div>
+			</div>
+		</div>
+	</div>
+  </body>
+  <footer>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="select.js"></script>
+   <script src="main.js"></script>
+   
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53108941-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </footer>
+  
+  </html>
